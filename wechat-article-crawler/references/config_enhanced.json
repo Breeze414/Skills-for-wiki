@@ -1,0 +1,29 @@
+{
+  "targets": [
+    {
+      "nickname": "目标公众号名称",
+      "fakeid": null
+    }
+  ],
+  "crawl_settings": {
+    "_注释_": "增强版配置说明见 SKILL.md；正文提取建议优先走 Playwright 工作流。",
+    "batch_size": 5,
+    "delay_seconds": 5,
+    "delay_jitter": 0.4,
+    "batch_limit": 100,
+    "rest_seconds": 60,
+    "output_dir": "output",
+    "content_delay_seconds": 3,
+    "content_delay_jitter": 0.5,
+    "max_retries": 3,
+    "retry_backoff": 2.0,
+    "skip_content": false,
+    "export_markdown": true,
+    "markdown_dir": "output/markdown"
+  },
+  "workflow": {
+    "wiki_kb_root": "<YOUR_WIKI_KB_PATH>",
+    "default_workspace_root": "<YOUR_WORKSPACE_PATH>",
+    "raw_subdir_prefix": "wechat_articles"
+  }
+}
