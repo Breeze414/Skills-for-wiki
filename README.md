@@ -1,6 +1,4 @@
-# WorkBuddy Skills — Open Source Collection
-
-一套用于 AI 工作助手（WorkBuddy / OpenClaw 等）的 Skill 插件，专注于知识库管理、内容抓取与研究侦察。
+# 一套用于 AI 工作助手（OpenClaw 等）的 Skill 插件，专注于知识库管理、内容抓取与研究侦察。
 
 ---
 
@@ -43,21 +41,7 @@ skill-name/
 └── references/           # 参考文档与配置模板
 ```
 
-将目录复制到你的 WorkBuddy skills 目录即可使用：
-
-```bash
-# Linux/macOS
-cp -r wechat-article-crawler ~/.workbuddy/skills/
-cp -r wiki-kb-builder ~/.workbuddy/skills/
-cp -r wiki-research-scout ~/.workbuddy/skills/
-
-# Windows
-xcopy /E /I wechat-article-crawler %USERPROFILE%\.workbuddy\skills\
-xcopy /E /I wiki-kb-builder %USERPROFILE%\.workbuddy\skills\
-xcopy /E /I wiki-research-scout %USERPROFILE%\.workbuddy\skills\
-```
-
----
+将目录复制到你的 skills 目录即可使用：
 
 ## 配置说明
 
